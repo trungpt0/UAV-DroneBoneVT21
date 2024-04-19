@@ -9,9 +9,9 @@
 #include <string.h>
 #include <stdint.h>
 
-#include "/home/bbb/UAV-Projects/DroneBoneVT21/Driver/MotorSystem/motor.h"
-#include "/home/bbb/UAV-Projects/DroneBoneVT21/Driver/SensorSystem/mpu9250.h"
-#include "/home/bbb/UAV-Projects/DroneBoneVT21/Driver/GPSSystem/neo6mv2.h"
+#include "/home/bbb/UAV-DroneBoneVT21/Driver/MotorSystem/motor.h"
+#include "/home/bbb/UAV-DroneBoneVT21/Driver/SensorSystem/mpu9250.h"
+#include "/home/bbb/UAV-DroneBoneVT21/Driver/GPSSystem/neo6mv2.h"
 
 int main()
 {

@@ -8,7 +8,7 @@
 #include <fcntl.h>
 #include <string.h>
 
-#include "/home/bbb/UAV-Projects/DroneBoneVT21/Driver/MotorSystem/motor.h"
+#include "/home/bbb/UAV-DroneBoneVT21/Driver/MotorSystem/motor.h"
 
 #define GPIO_PATH "/sys/class/gpio/"
 

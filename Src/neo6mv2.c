@@ -9,7 +9,7 @@
 #include <termios.h>
 #include <string.h>
 
-#include "/home/bbb/UAV-Projects/DroneBoneVT21/Driver/GPSSystem/neo6mv2.h"
+#include "/home/bbb/UAV-DroneBoneVT21/Driver/GPSSystem/neo6mv2.h"
 
 /**
  * Open UART for GPS

@@ -11,7 +11,7 @@
 #include <sys/ioctl.h>
 #include <linux/i2c-dev.h>
 
-#include "/home/bbb/UAV-Projects/DroneBoneVT21/Driver/SensorSystem/mpu9250.h"
+#include "/home/bbb/UAV-DroneBoneVT21/Driver/SensorSystem/mpu9250.h"
 
 #define I2C_DEVICE "/dev/i2c-1" // I2C Device path
 
