@@ -24,7 +24,7 @@ Welcome to DroneBoneVT21, an unmanned aerial vehicle (UAV) designed for various 
 
 ## **Results**
 
-The DroneBoneVT21 unmanned aerial vehicle system with excellent operational capabilities and applications across multiple fields: transportation, surveillance, entertainment, etc.
+The DroneBoneVT21 unmanned aerial vehicle system with excellent operational capabilities and applications across multiple fields: transportation, surveillance, entertainment, etc...
 
 ## **Authors**
 
