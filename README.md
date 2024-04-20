@@ -28,12 +28,11 @@ The DroneBoneVT21 unmanned aerial vehicle system with excellent operational capa
 
 ## **Authors**
 
-1. ThS. Do Van Viet Em  - PTIT
-2. Huynh Gia Bao        - PTIT
-3. Nguyen Truong Giang  - PTIT
-4. Tran Xuan Quyet Tien - PTIT
-5. Nguyen Ngoc Tri      - PTIT
-6. Tran Minh Trung      - PTIT
+1. Huynh Gia Bao        - PTIT
+2. Nguyen Truong Giang  - PTIT
+3. Tran Xuan Quyet Tien - PTIT
+4. Nguyen Ngoc Tri      - PTIT
+5. Tran Minh Trung      - PTIT
 
 ## **Contact**
 
