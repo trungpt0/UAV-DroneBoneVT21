@@ -1,10 +1,6 @@
 /**
- * @authors Trung Tran | Nguyen Ngoc Tri - Try Hard Team - VT2 - PTIT
-*/
-
-#ifndef NEO_H
-#define NEO_H
-
-#include <unistd.h>
-
-#endif /* NEO_H */
+ * @name: DroneBoneVT21
+ * @version: 1.0
+ * @file: neo6mv2.h
+ * @authors: Trung Tran | Tri Nguyen
+ */

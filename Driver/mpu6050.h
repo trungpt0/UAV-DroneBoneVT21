@@ -1,6 +1,9 @@
 /**
- * @authors Trung Tran | Nguyen Truong Giang - Try Hard Team - VT2 - PTIT
-*/
+ * @name: DroneBoneVT21
+ * @version: 1.0
+ * @file: mpu6050.h
+ * @authors: Trung Tran | Giang Nguyen
+ */
 
 #ifndef MPU6050_H
 #define MPU6050_H
@@ -43,5 +46,16 @@
 
 /* Define I2C slave address of MPU6050 sensor */
 #define MPU6050_SLAVE_ADDR 0x68
+
+#define I2C_DEVICE_FILE "/dev/i2c-2" // Path to I2C-2 device
+
+extern int fd;
+
+/* Function declarations */
+int mpu6050_write(uint8_t addr, uint8_t data);
+int mpu6050_read(uint8_t base_addr, char *pbuffer, int len);
+void mpu6050_init();
+void mpu6050_read_acc(short int *pbuffer);
+void mpu6050_read_gyr(short int *pbuffer);
 
 #endif /* MPU6050_H */

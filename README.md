@@ -36,6 +36,8 @@ The DroneBoneVT21 unmanned aerial vehicle system with excellent operational capa
 
 ## **Contact**
 
+trungtrnminh368@gmail.com
+
 ## **License**
 
-Try Hard Team - Electronics and Elecommunication Faculty - Posts and Telecommunications Institute of Technology (PTIT)
+ETPC - Electronics and Elecommunication PTIT Club - Posts and Telecommunications Institute of Technology (PTIT)
