@@ -10,5 +10,3 @@ $ sudo su
 $ echo 1 > /proc/sys/net/ipv4/ip_forward
 $ iptables --table nat --append POSTROUTING --out-interface 'host wifi name' -j MASQUERADE
 $ iptables --append FORWARD --in-interface 'ethernet BBB name' -j ACCEPT
-
-# That's OK!

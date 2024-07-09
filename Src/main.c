@@ -42,13 +42,13 @@ int main()
 		mpu6050_read_gyr(gyr_value);
 
 		/* Convert raw data to actual values */
-		accx = (double) acc_value[0]/AFS_SEL_0;
-		accy = (double) acc_value[1]/AFS_SEL_0;
-		accz = (double) acc_value[2]/AFS_SEL_0;
+		accx = (double) acc_value[0] / AFS_SEL_0;
+		accy = (double) acc_value[1] / AFS_SEL_0;
+		accz = (double) acc_value[2] / AFS_SEL_0;
 
-		gyrx = (double) gyr_value[0]/GFS_SEL_0;
-		gyry = (double) gyr_value[1]/GFS_SEL_0;
-		gyrz = (double) gyr_value[2]/GFS_SEL_0;
+		gyrx = (double) gyr_value[0] / GFS_SEL_0;
+		gyry = (double) gyr_value[1] / GFS_SEL_0;
+		gyrz = (double) gyr_value[2] / GFS_SEL_0;
 
 		printf("Acc(raw) = X:%d   Y:%d   Z:%d, Gyr(raw) = X:%d   Y:%d   Z:%d\n", 
 			acc_value[0], acc_value[1], acc_value[2],
@@ -60,7 +60,7 @@ int main()
 			gyrx, gyry, gyrz
 		);
 
-		usleep(50 * 1000);
+		usleep(100 * 1000);
 	}
 
 	return 0;
