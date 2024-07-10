@@ -1,9 +1,9 @@
-obj-m += main.o
+obj-m += mpu6050.o
 
 ifdef ARCH
 	KDIR = /home/bbb/BBB/image-builder/BBB/tmp/lib/modules/5.10.168/build
 else
-	KDIR = /lib/modules/$(shell uname -r)/build
+	KDIR = /lib/modules/$(shell name -r)/build
 endif
 
 all:

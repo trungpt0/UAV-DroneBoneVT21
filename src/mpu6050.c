@@ -12,7 +12,7 @@
 #include <sys/ioctl.h>
 #include <linux/i2c-dev.h>
 
-#include "/home/bbb/UAV-DroneBoneVT21/Driver/mpu6050.h"
+#include "/home/bbb/UAV-DroneBoneVT21/inc/mpu6050.h"
 
 int fd;
 

@@ -12,7 +12,7 @@
 #include <string.h>
 #include <errno.h>
 
-#include "/home/bbb/UAV-DroneBoneVT21/Driver/neo6mv2.h"
+#include "/home/bbb/UAV-DroneBoneVT21/inc/neo6mv2.h"
 
 int gps_init()
 {
