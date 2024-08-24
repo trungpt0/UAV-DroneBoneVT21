@@ -12,6 +12,7 @@
 #include <sys/ioctl.h>
 
 #include "/home/bbb/UAV-DroneBoneVT21/inc/mpu6050.h"
+#include "/home/bbb/UAV-DroneBoneVT21/inc/nRF24L01.h"
 
 int main()
 {
@@ -34,12 +35,18 @@ int main()
 
 	/* Initialize MPU6050 */
 	mpu6050_init();
+	nRF24L01_init();
+	nRF24L01_receiver_mode();
+
+	uint8_t received_payload[3];
 
 	while (1)
 	{
 		/* Read accelerometer and gyroscope data */
 		mpu6050_read_acc(acc_value);
 		mpu6050_read_gyr(gyr_value);
+
+		nRF24L01_receive_payload(received_payload, 3);
 
 		/* Convert raw data to actual values */
 		accx = (double) acc_value[0] / AFS_SEL_0;
@@ -60,7 +67,9 @@ int main()
 			gyrx, gyry, gyrz
 		);
 
-		usleep(100 * 1000);
+		printf("nRF24L01: %c%c%c\n", received_payload[0], received_payload[1], received_payload[2]);
+
+		usleep(100000);
 	}
 
 	return 0;

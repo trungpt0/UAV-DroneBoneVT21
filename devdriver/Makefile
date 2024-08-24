@@ -1,4 +1,4 @@
-obj-m += main.o
+obj-m += test_kmodule.o
 
 ifdef ARCH
 	KDIR = /home/bbb/UAV-DroneBoneVT21/image/5.10.168/build

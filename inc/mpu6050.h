@@ -3,6 +3,9 @@
  * @version: 1.0
  * @file: mpu6050.h
  * @authors: Trung Tran | Giang Nguyen
+ * 
+ * License: GPL
+ * 
  */
 
 #ifndef MPU6050_H

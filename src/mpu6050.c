@@ -3,6 +3,9 @@
  * @version: 1.0
  * @file: mpu6050.c
  * @authors: Trung Tran | Giang Nguyen
+ * 
+ * License: GPL
+ * 
  */
 
 #include <stdio.h>
